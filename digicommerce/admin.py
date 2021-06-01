@@ -1,4 +1,4 @@
-from loja.models import Categoria, Marca, Produto
+from digicommerce.models import Categoria, Marca, Produto
 from django.contrib import admin
 from .models import *
 

@@ -26,7 +26,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'loja'
+    'digicommerce',
+    'tailwind',
+    'jquery'
+]
+TAILWIND_APP_NAME = 'digicommerce'
+
+INTERNAL_IPS = [
+    "127.0.0.1",
 ]
 
 MIDDLEWARE = [

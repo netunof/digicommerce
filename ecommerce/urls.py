@@ -3,6 +3,6 @@ from django.urls import path
 from django.urls.conf import include
 
 urlpatterns = [
-    path('loja/', include('loja.urls')),
+    path('digicommerce/', include('digicommerce.urls')),
     path('admin/', admin.site.urls),
 ]
